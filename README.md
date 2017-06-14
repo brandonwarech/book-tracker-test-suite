@@ -6,7 +6,7 @@ This repository holds sample code demonstrating a pattern for unit testing [Apac
 
 
 
-This pattern shows how to write one mocha suite that can be used to unit test actions either 1) locally on your machine, or 2) remotely on OpenWhisk.   The key value is that you can re-use the same test suite in both contexts.   So, with this pattern, you can develop and test your actions locally; when ready, you can deploy them to the cloud and use the same test suite to exercise the actions run in the cloud.
+This pattern shows how to write one mocha suite that can be used to unit test actions either 1) locally on your machine, or 2) remotely on OpenWhisk.   The code uses a trick so that you can re-use the same test suite in both contexts.   So, with this pattern, you can develop and test your actions locally; when ready, you can deploy them to the cloud and use the same test suite to exercise the actions run in the cloud.
 
 ## How it works
 
